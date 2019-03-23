@@ -238,6 +238,16 @@ header h1 {
 
 /* ================Медиа запросы==================== */
 
+@media screen and (max-width:800px) {
+  .choices {
+    margin-top: 0px;
+  }
+    .choice img {
+      height: 50px;
+      width: 50px;
+    }
+}
+
 @media screen and (max-width:425px) {
 
     .choice {
