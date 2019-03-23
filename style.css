@@ -239,6 +239,11 @@ header h1 {
 /* ================Медиа запросы==================== */
 
 @media screen and (max-width:425px) {
+
+    .choice {
+      cursor: none;     
+    }
+
   .choice img {
     height: 50px;
     width: 50px;
@@ -246,15 +251,22 @@ header h1 {
 }
 
 @media screen and (max-width:375px) {
+
+    .choice {
+      cursor: none;      
+    }
+    
   .choice img {
     height: 44px;
     width: 44px;
   }
 }
 
+
 @media screen and (max-width:360px) {
 
-  .choice {   
+  .choice {
+    cursor:none;
     margin: 0px 15px;    
   }
   .choice img {
