@@ -194,6 +194,9 @@ header h1 {
   text-align: center;
   font-size: 30px;
 }
+.result p {
+   height: 70px;
+}
 
 .choices {
   margin-top: 50px;  
