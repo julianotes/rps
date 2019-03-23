@@ -248,11 +248,13 @@ header h1 {
     width: 44px;
   }
 }
-
 @media screen and (max-width:320px) {
 
-  .choice {    
-    margin: 0 5px;
+  .choices {
+    height: 72px;
+  }
+  .choice {   
+    margin: 0 5px;    
   }
   .choice img {
     overflow: hidden;
