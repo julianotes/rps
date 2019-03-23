@@ -239,8 +239,12 @@ header h1 {
 /* ================Медиа запросы==================== */
 
 @media screen and (max-width:800px) {
+   
+  .result p {
+   font-size: 25px;
+  }
   .choices {
-    margin-top: 0px;
+    margin-top: 3px;
   }
 
   .choice {
