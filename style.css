@@ -1,0 +1,234 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+/*=================Сброс стилей================*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+
+/* =====================================Собственные стили================================== */
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Pangolin',cursive;
+  background-color: #292c34;
+  color: #fff;
+  
+}
+
+
+header {
+  padding:25px 0 25px 0;
+  background-color: #fff;
+}
+
+header h1 {
+  color: #25272e;
+  text-align: center;
+  font-size:27px;
+  line-height: 1.5; 
+}
+
+.score-board {
+  position: relative;
+  margin: 20px auto;
+  border: 3px solid #fff;
+  border-radius:4px;
+  width: 200px;
+  height: 100px;
+  padding: 33px 20px;
+  font-size: 30px;
+  text-align: center;
+
+}
+.bage {
+  position: absolute;
+  background-color: #e2584d;
+  width: 100px;
+  font-size: 17px;
+  padding: 2px 10px;
+}
+.bage-user {
+ top:33px;
+ left: -65px;
+}
+.bage-comp {
+ top:33px;
+ left: 157px;
+ 
+}
+.result {
+  text-align: center;
+  font-size: 30px;
+}
+
+.choices {
+  margin-top: 50px;  
+  text-align: center;
+}
+.choice {  
+  display: inline-block;
+  border: 4px solid #fff;
+  border-radius: 50%;
+  margin: 0 20px;
+  padding: 15px;
+  cursor: pointer;  
+}
+
+/* .choice:active {  
+  transform: scale(1.2);  
+  border-color:#dd2619;
+} */
+
+.action-message {
+  margin-top: 50px;
+  text-align: center;
+  font-size: 20px;
+}
+
+/*=============украшения===============*/
+.green-glow {
+  border: 4px solid #4dcc7d;
+  box-shadow: 0 0 10px #31b43a;
+}
+.red-glow {
+  border: 4px solid #fc121b;
+  box-shadow: 0 0 10px #d01115;
+}
+.gray-glow {
+  border: 4px solid #464647;
+  box-shadow: 0 0 10px #25292b;
+}

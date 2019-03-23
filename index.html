@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Камень, ножницы, бумага</title>
+  <link href="https://fonts.googleapis.com/css?family=Pangolin&amp;subset=cyrillic" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <h1>Камень ножницы бумага</h1>
+  </header>
+  <div class="score-board">
+    <div class="bage bage-user" id="user-label">игрок</div>
+    <div class="bage bage-comp" id="comp-label">компьютер</div>
+    <span id="user-score">0</span>:<span id="comp-score">0</span>
+  </div>
+
+  <div class="result">
+    <p>Бумага кроет камень. Ты выиграл!</p>
+  </div>
+
+  <div class="choices">
+    <div class="choice" id="r">
+      <img src="img/rock.png" alt="Камень" width="57" height="57">
+    </div>
+    <div class="choice" id="p">
+      <img src="img/paper.png" alt="Бумага" width="65" height="65">
+    </div>
+    <div class="choice" id="s">
+      <img src="img/scissors.png" alt="Ножницы" width="65" height="65">
+    </div>
+  </div>
+
+  <p class="action-message">Сделай свой выбор</p>
+  <script type="text/javascript" src="app.js"></script>
+</body>
+
+</html>
