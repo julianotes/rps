@@ -242,17 +242,22 @@ header h1 {
   .choices {
     margin-top: 0px;
   }
-    .choice img {
-      height: 50px;
-      width: 50px;
-    }
+
+  .choice {
+    cursor: none;
+  }
+
+  .choice img {
+    height: 50px;
+    width: 50px;
+  }
 }
 
 @media screen and (max-width:425px) {
 
-    .choice {
-      cursor: none;     
-    }
+  .choice {
+    cursor: none;
+  }
 
   .choice img {
     height: 50px;
@@ -262,10 +267,10 @@ header h1 {
 
 @media screen and (max-width:375px) {
 
-    .choice {
-      cursor: none;      
-    }
-    
+  .choice {
+    cursor: none;
+  }
+
   .choice img {
     height: 44px;
     width: 44px;
@@ -276,13 +281,14 @@ header h1 {
 @media screen and (max-width:360px) {
 
   .choice {
-    cursor:none;
-    margin: 0px 15px;    
+    cursor: none;
+    margin: 0px 15px;
   }
+
   .choice img {
     overflow: hidden;
     height: 35px;
     width: 35px;
-    
+
   }
 }
